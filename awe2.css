@@ -1,0 +1,198 @@
+.homepage {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0 30px 96px;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.homepage .were-farmers-purveyors-and-eaters-of-organically-grown-food {
+  margin: 0 82px 40px 0;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Newsreader';
+  font-weight: 400;
+  font-size: 64px;
+  letter-spacing: -1.3px;
+  line-height: 1.2;
+  color: #000000;
+}
+.were-farmers-purveyors-and-eaters-of-organically-grown-food-sub1 {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 64px;
+  letter-spacing: -1.3px;
+  line-height: 1.333;
+}
+.homepage .button {
+  border-radius: 8px;
+  background: #426B1F;
+  margin: 0 95px 156px 0;
+  display: flex;
+  padding: 19px 0.9px 19px 0;
+  width: 227px;
+  box-sizing: border-box;
+}
+.homepage .browse-our-shop {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #FFFFFF;
+}
+.homepage .we-believe-in-produce-tasty-produce-produce-like-apples-oranges-limes-lemons-guavas-carrots-cucumbers-jicamas-cauliflowers-brussels-sprouts-shallots-japanese-eggplants-asparagus-artichokes-jerusalem-artichokes-too-radishes-broccoli-baby-broccoli-broccolini-bok-choy-scallions-ginger-cherries-raspberries-cilantro-parsley-dill-what-are-we-forgetting-oh-onions-yams-avocados-lettuce-arugulato-somerocket-persian-cucumbers-in-addition-to-aforementionednormal-cucumbers-artichokes-zucchinis-pumpkins-squashwhat-some-cultures-call-pumpkins-sweet-potatoes-and-potato-potatoes-jackfruit-monk-fruit-fruit-of-the-loom-fruits-of-our-laborthis-website-sorrel-pineapple-mango-gooseberries-blackberries-tomatoes-heirloom-tomatoes-beets-chives-corn-endive-escarole-which-we-swear-were-vendors-of-organic-produce-but-if-you-asked-us-to-describe-what-escaroles-are {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #000000;
+}
+.homepage .what-we-believe {
+  margin: 5px 76.3px 485px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  color: #000000;
+}
+.homepage .jonathan-kemper-1-hhrd-io-lfp-uunsplash-1 {
+  background: url('assets/images/JonathanKemper1HhrdIoLfpUunsplash1.jpeg') 50% / cover no-repeat;
+  margin-right: 60px;
+  width: 504px;
+  height: 693px;
+}
+.central-california-the-person-who-grew-these-was-located-in-central-california-and-er-hopefully-very-well-compensated {
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: -0.1px;
+  line-height: 1.333;
+}
+.central-california-the-person-who-grew-these-was-located-in-central-california-and-er-hopefully-very-well-compensated-sub4 {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.1px;
+  line-height: 1.333;
+}
+.homepage .central-california-the-person-who-grew-these-was-located-in-central-california-and-er-hopefully-very-well-compensated {
+  margin-right: 74.9px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.1px;
+  line-height: 1.6;
+  color: #000000;
+}
+.homepage .header {
+  margin: 0 96px 199px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.homepage .world-peas {
+  margin: 9px 16px 7px 0;
+  display: inline-block;
+  width: 151px;
+  overflow-wrap: break-word;
+  font-family: 'Newsreader';
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: -0.3px;
+  line-height: 1;
+  color: #426B1F;
+}
+.homepage .shop {
+  margin: 13.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #000000;
+}
+.homepage .newstand {
+  margin: 13.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #000000;
+}
+.homepage .who-we-are {
+  margin: 13.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #000000;
+}
+.homepage .my-profile {
+  margin: 13.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #000000;
+}
+.homepage .cart-button {
+  border-radius: 8px;
+  background: #426B1F;
+  display: flex;
+  padding: 13.5px 0;
+  width: 126px;
+  box-sizing: border-box;
+}
+.homepage .basket-3 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #FFFFFF;
+}
+.homepage .stocksy-txp-226-f-62-b-2-ane-300-medium-45821931 {
+  background: url('assets/images/StocksyTxp226F62B2Ane300Medium45821931.jpeg') 50% / cover no-repeat;
+  margin-bottom: 16px;
+  width: 780px;
+  height: 480px;
+}
+.homepage .container {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.homepage .container-1 {
+  margin: 90px 0 69px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.homepage .container-2 {
+  margin-bottom: 156px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}

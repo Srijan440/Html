@@ -1,0 +1,38 @@
+.p1{
+    color: black;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+.p2{
+    color: rgb(0,118,0);
+    font-weight: bolder;
+
+}
+
+.p3{
+    color: rgb(117,0,133);
+}
+
+.Button1{
+    border: none;
+    background: rgb(255,216,20);
+    height: 40px;
+    width: 120px;
+    color: black;
+    border-radius: 20px;
+    font-size:medium;
+    font-weight: 550;
+}
+
+.Button2{
+    border: none;
+    background: rgb(255, 164,28);
+    height: 40px;
+    width: 120px;
+    color: black;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-size:medium;
+    font-weight: 550;
+}

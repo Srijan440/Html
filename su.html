@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #1b0b30;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        /* Sidebar Styles */
+        aside {
+            width: 250px;
+            background: #3b016c;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100vh;
+        }
+
+        .user-profile {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .user-profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .user-profile h3 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .user-profile span {
+            font-size: 14px;
+            color: #b8b8b8;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 20px 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li a:hover {
+            color: #ff7fe2;
+        }
+
+        nav ul li a i {
+            margin-right: 10px;
+        }
+
+        /* Main Content Styles */
+        main {
+            flex: 1;
+            padding: 20px 40px;
+            background: #2d084a;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        header .welcome-text {
+            font-size: 24px;
+        }
+
+        header .search-bar {
+            width: 300px;
+            display: flex;
+            align-items: center;
+            background: #452066;
+            border-radius: 50px;
+            padding: 10px 20px;
+        }
+
+        header .search-bar input {
+            background: transparent;
+            border: none;
+            outline: none;
+            color: #fff;
+            width: 100%;
+        }
+
+        header .search-bar i {
+            color: #fff;
+        }
+
+        .dashboard-title {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Balance and Metrics Section */
+        .metrics-section {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .balance-card {
+            background: #4f1377;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 2;
+            margin-right: 20px;
+        }
+
+        .balance-card h3 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .balance-value {
+            font-size: 40px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .metrics-cards {
+            display: flex;
+            flex: 1;
+            justify-content: space-between;
+        }
+
+        .metric-card {
+            background: #4f1377;
+            padding: 20px;
+            border-radius: 10px;
+            width: 45%;
+            text-align: center;
+        }
+
+        .metric-card h4 {
+            margin: 0;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .metric-card .metric-value {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        /* Chart Section */
+        .chart-container {
+            background: #4f1377;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+
+        .chart-title {
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .chart-placeholder {
+            height: 200px;
+            background: #69328d;
+            border-radius: 10px;
+        }
+
+        /* Data Cards */
+        .data-cards {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .data-card {
+            background: #4f1377;
+            padding: 20px;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .data-card h4 {
+            margin: 0;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .data-card .data-value {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .data-card .progress-bar {
+            height: 6px;
+            background: #69328d;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .progress-bar span {
+            display: block;
+            height: 100%;
+        }
+
+        .progress-bar span.green {
+            width: 60%;
+            background: #4cf49c;
+        }
+
+        .progress-bar span.blue {
+            width: 40%;
+            background: #2a89f4;
+        }
+
+        .progress-bar span.yellow {
+            width: 75%;
+            background: #f4cf4c;
+        }
+    </style>
+</head>
+<body>
+    <aside>
+        <div class="user-profile">
+            <img src="https://via.placeholder.com/100" alt="User Profile">
+            <h3>Jessica Doe</h3>
+            <span>Admin</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fa fa-chart-bar"></i> Charts</a></li>
+                <li><a href="#"><i class="fa fa-star"></i> Favorites</a></li>
+                <li><a href="#"><i class="fa fa-clock"></i> Newest</a></li>
+                <li><a href="#"><i class="fa fa-search"></i> Search</a></li>
+                <li><a href="#"><i class="fa fa-save"></i> Save Files</a></li>
+                <li><a href="#"><i class="fa fa-cog"></i> Config</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <header>
+            <div class="welcome-text">Hello, Welcome!!</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <i class="fa fa-search"></i>
+            </div>
+        </header>
+
+        <div class="dashboard-title">Dashboard: Project Name</div>
+
+        <div class="metrics-section">
+            <div class="balance-card">
+                <h3>Balance</h3>
+                <div class="balance-value">10500$</div>
+                <small>Movimientos</small>
+            </div>
+
+            <div class="metrics-cards">
+                <div class="metric-card">
+                    <h4>Profits</h4>
+                    <div class="metric-value">70%</div>
+                    <small>Lorem ipsum dolor sit amet...</small>
+                </div>
+                <div class="metric-card">
+                    <h4>Lost</h4>
+                    <div class="metric-value">65%</div>
+                    <small>Lorem ipsum dolor sit amet...</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <div class="chart-title">Chart Title Here</div>
+            <div class="chart-placeholder"></div>
+        </div>
+
+        <div class="data-cards">
+            <div class="data-card">
+                <h4>Text Title</h4>
+                <div class="data-value">Value</div>
+                <div class="progress-bar">
+                    <span class="green"></span>
+                </div>
+            </div>
+            <div class="data-card">
+                <h4>Text Title</h4>
+                <div class="data-value">Value</div>
+                <div class="progress-bar">
+                    <span class="blue"></span>
+                </div>
+            </div>
+            <div class="data-card">
+                <h4>Text Title</h4>
+                <div class="data-value">Value</div>
+                <div class="progress-bar">
+                    <span class="yellow"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

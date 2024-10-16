@@ -1,0 +1,277 @@
+.Button1{
+    background-color: rgb(200, 0, 0);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    width: 135px;
+    height: 35px;
+    cursor: pointer; 
+    font-size: 12px;   
+    transition: opacity 0.10s,   font-size 0.15s; 
+}
+
+.Button1:hover{
+    opacity: 0.7;
+    font-size: small;
+}
+
+.Button1:active {
+    opacity: 0.5;
+}
+
+.Button2{
+    background-color: white;
+    border-radius: 3px;
+    color: rgb(41, 118, 211);
+    cursor: pointer;
+    border-color: rgb(41, 118, 211);
+    height: 32px;
+    width: 70px;
+    border-width: 1px;
+    border-style : solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: opacity 0.15s;
+
+}
+
+.Button2:hover{
+    background-color :rgb(41, 118, 211);
+    color: white;
+}
+
+.Button2:active{
+    color:rgb(41, 118, 211) ;
+    background-color: white;
+}
+
+.Button3{
+    border: none;
+    background: rgb(41, 118, 211);
+    border-radius: 40px;
+    color: white;
+    margin-left: 10px;
+    height: 36px;
+    width: 80px;
+    font-weight:400;
+    font-size: 14px;
+    cursor: pointer;
+    transition: box-shadow 0.15s, opacity 0.65s;
+}
+
+.Button3:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0,0, 0.45);
+}
+
+.Button3:active{
+    opacity: 0.7;
+}
+
+.Button4{
+    border: none;
+    background: rgb(255, 233, 35);
+    font: Black;
+    width: 250px;
+    height : 36px;
+    font: size 4px;;
+    border-radius: 5px;
+    font-weight: 530;
+    margin-top: 5px;
+    margin-left: 14px;
+    margin-top: 20px;
+    cursor : pointer;
+    transition: background-color 0.15s;
+}
+
+.Button4:hover{
+    background-color: rgb(251, 204, 15);
+}
+
+.Button4:active{
+    background-color: rgb(255, 233, 35);
+}
+
+.Button5{
+    background-color: white;
+    color: #134697;
+    border-radius: 30px;
+    border-width: 1.5px;
+    border-color: #134697;
+    font-size: large;
+    font-weight: 700;
+    width: 80px;
+    height: 45px;
+    margin-left: 90px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s, border-width 0.15s;
+}
+
+.Button5:hover{
+    background-color: rgb(200, 237, 244);
+    border-width: 2px;
+}
+
+.Link1{
+    margin-left: 73px;
+    color: rgb(107, 156, 216);
+}
+
+.Link1:hover{
+    color: rgb(231, 89, 28);
+}
+
+.Button6{
+    background-color: rgb(242, 234, 234);
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5.5px;
+    padding-right: 5.5px;
+    border-width: 0.1px;
+    border-color: solid;
+    border-radius: 2px;
+    font-weight: 300;
+    margin-left: 22px;
+}
+
+.Button7{
+    background-color: rgb(242, 234, 234);
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5.5px;
+    padding-right: 5.5px;
+    border-width: 0.1px;
+    border-color: solid;
+    border-radius: 2px;
+    font-weight: 300;    
+}
+
+.Link2{
+    color: rgb(68, 5, 126);
+    margin-left: 10px;
+}
+
+.Link3{
+    color: rgb(68, 5, 126);
+    margin-left: 10px;
+}
+
+.Link4{
+    color: rgb(68, 5, 126);
+    margin-left: 10px;
+}
+
+.Link5{
+    color: rgb(68, 5, 126);
+    margin-left: 10px;
+}
+
+.Link6{
+    color: rgb(68, 5, 126);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Button8{
+    background-color: green;
+    color: white;
+    padding-top: 6.5px;
+    padding-bottom:6.5px;
+    padding-left: 14.5px;
+    padding-right: 14.5px;
+    border: none;
+
+    transition: 
+    padding-top 1s,
+    padding-bottom 1s,
+    padding-left 1s,
+    padding-right 1s;
+}
+
+.Button8:hover{
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.Button9{
+background-color: green;
+color: white;
+font-size: 18px; 
+border: none;
+padding-left: 15px;
+padding-right: 15px;
+height: 30px;
+margin-left: 10px;
+margin-right: 10px;
+transition: padding 1s,margin 1s;
+}
+
+.Button9:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.Button10{
+    background-color: green;
+    color: white;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-shadow: 4px 4px 3px rgba(160, 150, 150, 0.644);
+    transition : box-shadow 1s,margin 1s;
+}
+
+.Button10:active{
+    box-shadow: 0px 0px 0px rgba(0, 0,0, 0);
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.Button11{
+    background-color: green;
+    color: white;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-shadow: 4px 4px 3px rgba(160, 150, 150, 0.644);
+    transition : box-shadow 2s,margin 1s;
+}
+
+.Button11:active{
+    box-shadow: 0px 0px 0px rgba(0, 0,0, 0);
+    margin-left: 8px;
+}
+
+.Button12{
+    border: none;
+    color: #0f0f0f;
+    background-color: #f1f1f1 ;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 18px;
+    height: 36px;
+    cursor: pointer;
+    padding-left : 15.5px;
+    padding-right: 15.5px;
+}
+
+.Button12:hover{
+    opacity: 0.7;
+}
